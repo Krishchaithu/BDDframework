@@ -18,4 +18,10 @@ public void verify_the_page_title() throws Throwable {
 	System.out.println("this is second");
 }
 
+@Then("^click button$")
+public void click_button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+	System.out.println("this is second");
+}
+
 }
