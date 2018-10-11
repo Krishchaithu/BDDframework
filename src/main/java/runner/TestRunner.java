@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class) 
-@CucumberOptions(features ="D:\\learning\\BDDframework\\src\\main\\java\\features\\", glue="stepdef",  dryRun =false
+@CucumberOptions(features ="D:\\learning\\BDDframework\\src\\main\\java\\features\\", glue="stepdef",  dryRun =true
 		)
 
 
