@@ -1,7 +1,11 @@
-Feature: login test
+Feature: site login Feature
 
-Scenario: web site login test wheather users are able to login to the site
+Scenario: user able to login to akamai
 
-Given user is on the website
-Then verify the page title 
-Then click button
+Given user is on site page
+Then title of the page is akamai
+Then  user enters username
+Then user enters password 
+Then user click on submit button
+Then user validates title page is Home
+Then close browser
