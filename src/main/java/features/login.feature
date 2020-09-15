@@ -18,3 +18,5 @@ Then user enters password
 Then user click on submit button
 Then user validates title page is Home
 Then close browser
+
+  Scenario: this is to test git push
