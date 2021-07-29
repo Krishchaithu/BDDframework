@@ -1,11 +1,11 @@
 package StepDefination;
 
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.*;
 import junit.framework.Assert;
 
 
